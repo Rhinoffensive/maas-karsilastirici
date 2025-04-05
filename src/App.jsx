@@ -217,7 +217,21 @@ export default function MaasHesaplayici() {
   return (
     <div className="p-4 max-w-7xl mx-auto min-h-screen">
             
-      <h1 className="text-3xl font-bold mb-6">Devlet ve Vakıf Maaş Karşılaştırması</h1>
+      <div className="flex items-start justify-between gap-2 mb-6">
+  <h1 className="text-3xl font-bold">Devlet ve Vakıf Maaş Karşılaştırması</h1>
+  <div className="relative group">
+    <span className="text-xl cursor-pointer">ℹ️</span>
+    <div className="absolute z-10 hidden group-hover:block bg-white border border-gray-300 p-4 text-sm shadow-lg rounded max-w-lg w-[400px]">
+      <p className="mb-2 font-medium">Nasıl Hesaplanır?</p>
+      <ol className="list-decimal pl-4 space-y-2">
+        <li>Çıplak maaşınızı bilmeniz gerekir. Çıplak maaş, dil tazminatı, makam tazminatı ve ek ders gibi ödenekler çıkarılarak hesaplanır.</li>
+        <li>Eğer net maaşınızı bilmiyorsanız, e-Devlet üzerinden SGK 4A hizmet dökümünüzdeki maaşı 0,83 ile çarparak yaklaşık bir değere ulaşabilirsiniz. Bu değerden de yine varsa ek ödenekleri çıkarmanız gerekir.</li>
+        <li>SGK 4A hizmet dökümünde her ay farklı ücretler olabilir. Şubat–Temmuz ve Eylül–Aralık arasında en düşük olanları seçip 0,83 ile çarpabilirsiniz.</li>
+        <li>SGK dökümündeki maaş ile net maaş arasında büyük fark varsa, çalıştığınız üniversite vergi muafiyeti sağlayan akademik bordro kullanmıyor olabilir. Bu durumda bizimle iletişime geçebilirsiniz.</li>
+      </ol>
+    </div>
+  </div>
+</div>
 
       <div className="flex flex-wrap gap-4 mb-8">
         <div className="w-[140px] border p-3 rounded-lg shadow-sm text-sm flex flex-col items-center">
