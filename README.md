@@ -22,8 +22,8 @@ cinsinden görmelerini sağlar.
 
 Kullanılan tüm resmi maaş ve piyasa verileri `src/data/` klasöründe yer almaktadır:
 
-- `maaslar.json` → Devlet üniversitelerindeki akademik pozisyonlara göre aylık maaşlar.
-- `endeks.json` → 2020–2025 arası aylık USD/TRY ve Gram Altın/TRY döviz kuru verileri.
+- [`maaslar.json`](https://github.com/Rhinoffensive/maas-karsilastirici/blob/main/src/data/maaslar.json) → Devlet üniversitelerindeki akademik pozisyonlara göre aylık maaşlar.
+- [`endeks.json`](https://github.com/Rhinoffensive/maas-karsilastirici/blob/main/src/data/endeks.json) → 2020–2025 arası aylık USD/TRY ve Gram Altın/TRY döviz kuru verileri.
 
 Veriler gerçek döviz/altın verileriyle hazırlanmış olup, gerekli olduğu takdirde manuel olarak güncellenebilir.
 
@@ -40,8 +40,8 @@ Veriler gerçek döviz/altın verileriyle hazırlanmış olup, gerekli olduğu t
 
 ### 🚀 Yayın
 
-Proje GitHub Pages üzerinden canlı olarak yayınlanabilir:  
-📈 `https://rhinoffensive.github.io/maas-karsilastirici`
+Proje GitHub Pages üzerinden canlı olarak yayınlanabilir:\
+📈 [https://rhinoffensive.github.io/maas-karsilastirici](https://rhinoffensive.github.io/maas-karsilastirici)
 
-
+> Not: Linkin çalışması için `vite.config.js` dosyasındaki `base` ayarı doğru yapılandırılmış olmalıdır.
 
