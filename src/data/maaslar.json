@@ -1,6 +1,6 @@
 {
   "roles": {
-    "Arastirma Gorevlisi": {
+    "Araştırma Görevlisi": {
       "2020": {
         "Mayıs": 6370,
         "Haziran": 6370,
@@ -70,10 +70,11 @@
       "2025": {
         "Ocak": 60861,
         "Şubat": 60861,
-        "Mart": 60861
+        "Mart": 60861,
+        "Nisan": 60861
       }
     },
-    "Ogretim Gorevlisi": {
+    "Öğretim Görevlisi": {
       "2020": {
         "Mayıs": 6217,
         "Haziran": 6140,
@@ -143,10 +144,11 @@
       "2025": {
         "Ocak": 60579,
         "Şubat": 60579,
-        "Mart": 60579
+        "Mart": 60579,
+        "Nisan": 60579
       }
     },
-    "Dr. Ogretim Uyesi": {
+    "Dr. Öğretim Görevlisi": {
       "2020": {
         "Mayıs": 7101,
         "Haziran": 7101,
@@ -216,10 +218,11 @@
       "2025": {
         "Ocak": 66129,
         "Şubat": 66129,
-        "Mart": 66129
+        "Mart": 66129,
+        "Nisan": 66129
       }
     },
-    "Doc. Dr. Ogretim Uyesi": {
+    "Doç. Dr.": {
       "2020": {
         "Mayıs": 7270,
         "Haziran": 7101,
@@ -288,10 +291,11 @@
       "2025": {
         "Ocak": 67351,
         "Şubat": 67351,
-        "Mart": 67351
+        "Mart": 67351,
+        "Nisan": 67351
       }
     },
-    "Prof. Dr. Ogretim Uyesi": {
+    "Prof. Dr.": {
       "2020": {
         "Mayıs": 9517,
         "Haziran": 9517,
@@ -361,7 +365,8 @@
       "2025": {
         "Ocak": 82586,
         "Şubat": 82586,
-        "Mart": 82586
+        "Mart": 82586,
+        "Nisan": 82586
       }
     }
   }

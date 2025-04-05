@@ -17,7 +17,7 @@ export default function MaasHesaplayici() {
   const [totalGold, setTotalGold] = useState(0);
   const roleStorageKey = "selectedRole";
   const [selectedRole, setSelectedRole] = useState(() => {
-    return localStorage.getItem(roleStorageKey) || "Arastirma Gorevlisi";
+    return localStorage.getItem(roleStorageKey) || "Araştırma Görevlisi";
   });
   const [userSalaries, setUserSalaries] = useState(() => {
     const saved = localStorage.getItem(localStorageKey);
@@ -112,7 +112,7 @@ export default function MaasHesaplayici() {
             const currentYear = Number(year);
             const isDisabled =
               (currentYear === 2020 && monthNumber < 5) ||
-              (currentYear === 2025 && monthNumber > 3);
+              (currentYear === 2025 && monthNumber > 4);
 
             const devletMaas = salaries[month] || null;
             const kullaniciMaas = userSalaries?.[year]?.[month] || null;
