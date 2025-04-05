@@ -7,9 +7,7 @@ export default defineConfig({
   server: {
     host: true, // dış dünyaya açılmasını sağlar
     // allowedHosts: [
-    //   '87fc-2404-4408-67a1-e600-8da-859d-4c97-7f04.ngrok-free.app' // güncel ngrok adresin
+    //   '95c7-2404-4408-67a1-e600-44f3-cf9e-d72f-aa9c.ngrok-free.app' // güncel ngrok adresin
     // ]
-
-
   }
 });

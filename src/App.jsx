@@ -137,6 +137,9 @@ export default function MaasHesaplayici() {
                   type="number"
                   step={devletMaas ? Math.round(devletMaas / 30) : 100}
                   value={userSalaries?.[year]?.hasOwnProperty(month) ? kullaniciMaas : devletMaas}
+                  onFocus={(e) => {
+                    e.target.select();
+                  }}
                   onChange={(e) => handleSalaryChange(year, month, e.target.value === "" ? 0 : e.target.value)}
                   className="w-full border rounded px-2 py-1 text-sm mb-1"
                 />
