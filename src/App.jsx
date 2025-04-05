@@ -44,7 +44,20 @@ export default function MaasHesaplayici() {
     const role = e.target.value;
     setSelectedRole(role);
     localStorage.setItem(roleStorageKey, role);
-    recalculateTotals(userSalaries);
+
+    const initial = {};
+    const roleSalaries = salaryData.roles[role];
+    Object.entries(roleSalaries).forEach(([year, monthsObj]) => {
+      initial[year] = {};
+      months.forEach((month) => {
+        if (monthsObj[month]) {
+          initial[year][month] = monthsObj[month];
+        }
+      });
+    });
+    setUserSalaries(initial);
+    localStorage.setItem(localStorageKey, JSON.stringify(initial));
+    recalculateTotals(initial);
   };
 
   const handleSalaryChange = (year, month, value) => {
