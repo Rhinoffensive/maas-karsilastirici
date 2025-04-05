@@ -6,8 +6,8 @@ export default defineConfig({
   base: '/maas-karsilastirici/',
   server: {
     host: true, // dış dünyaya açılmasını sağlar
-    // allowedHosts: [
-    //   '95c7-2404-4408-67a1-e600-44f3-cf9e-d72f-aa9c.ngrok-free.app' // güncel ngrok adresin
-    // ]
+    allowedHosts: [
+      '95c7-2404-4408-67a1-e600-44f3-cf9e-d72f-aa9c.ngrok-free.app' // güncel ngrok adresin
+    ]
   }
 });
