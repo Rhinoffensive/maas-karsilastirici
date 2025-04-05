@@ -1,12 +1,47 @@
-# React + Vite
+## 🎓 Devlet ve Vakıf Üniversitesi Maaş Karşılaştırıcı
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **2020 Mayıs** ayından itibaren Türkiye’deki **vakıf üniversitelerinde** çalışan akademisyenlerin maaşlarını, **devlet üniversiteleriyle** karşılaştırmak amacıyla geliştirilmiştir.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔍 Amaç
 
-## Expanding the ESLint configuration
+2020 Nisan ayında devlet tarafından vakıf ve devlet üniversitelerinde çalışan öğretim görevlileri için **maaş eşitlemesi** yapılması planlanmıştı. Ancak vakıf üniversitelerinde bu uygulama **gecikmeli** olarak hayata geçti. Bu durum, vakıf üniversitelerinde çalışan akademisyenler için **hak kayıplarına** neden oldu.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Bu araç, kullanıcıların kendi maaş verilerini girerek oluşan farkı:
+
+- **Türk Lirası (TL)**
+- **Amerikan Doları (USD)**
+- **Gram Altın (XAU)**
+
+cinsinden görmelerini sağlar.
+
+---
+
+### 📁 Veriler
+
+Kullanılan tüm resmi maaş ve piyasa verileri `src/data/` klasöründe yer almaktadır:
+
+- `maaslar.json` → Devlet üniversitelerindeki akademik pozisyonlara göre aylık maaşlar.
+- `endeks.json` → 2020–2025 arası aylık USD/TRY ve Gram Altın/TRY döviz kuru verileri.
+
+Veriler gerçek döviz/altın verileriyle hazırlanmış olup, gerekli olduğu takdirde manuel olarak güncellenebilir.
+
+---
+
+### 🧲 Nasıl Kullanılır?
+
+1. Sayfadan **akademik unvanınızı** seçin.
+2. Her ay için **gerçek maaşınızı** girin.
+3. TL, USD ve Altın bazında oluşan farkları üst kısımda görebilirsiniz.
+4. Hesaplamaları **CSV olarak dışa aktarabilir** ya da sıfırlayabilirsiniz.
+
+---
+
+### 🚀 Yayın
+
+Proje GitHub Pages üzerinden canlı olarak yayınlanabilir:  
+📈 `https://rhinoffensive.github.io/maas-karsilastirici`
+
+
+
