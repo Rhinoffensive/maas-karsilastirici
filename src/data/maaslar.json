@@ -1,0 +1,368 @@
+{
+  "roles": {
+    "Arastirma Gorevlisi": {
+      "2020": {
+        "Mayıs": 6370,
+        "Haziran": 6370,
+        "Temmuz": 6685,
+        "Ağustos": 6709,
+        "Eylül": 6709,
+        "Ekim": 6709,
+        "Kasım": 6595,
+        "Aralık": 6595
+      },
+      "2021": {
+        "Ocak": 7263,
+        "Şubat": 7263,
+        "Mart": 7263,
+        "Nisan": 7263,
+        "Mayıs": 7263,
+        "Haziran": 7263,
+        "Temmuz": 7792,
+        "Ağustos": 7833,
+        "Eylül": 7833,
+        "Ekim": 7754,
+        "Kasım": 7700,
+        "Aralık": 7700
+      },
+      "2022": {
+        "Ocak": 10109,
+        "Şubat": 10109,
+        "Mart": 10109,
+        "Nisan": 10109,
+        "Mayıs": 10109,
+        "Haziran": 10109,
+        "Temmuz": 14319,
+        "Ağustos": 14319,
+        "Eylül": 14319,
+        "Ekim": 14319,
+        "Kasım": 14319,
+        "Aralık": 14319
+      },
+      "2023": {
+        "Ocak": 18380,
+        "Şubat": 18842,
+        "Mart": 18842,
+        "Nisan": 18842,
+        "Mayıs": 18842,
+        "Haziran": 18842,
+        "Temmuz": 30079,
+        "Ağustos": 30079,
+        "Eylül": 30079,
+        "Ekim": 30079,
+        "Kasım": 30079,
+        "Aralık": 30079
+      },
+      "2024": {
+        "Ocak": 45221,
+        "Şubat": 45716,
+        "Mart": 45716,
+        "Nisan": 45716,
+        "Mayıs": 45716,
+        "Haziran": 45716,
+        "Temmuz": 54207,
+        "Ağustos": 54514,
+        "Eylül": 54514,
+        "Ekim": 54514,
+        "Kasım": 54514,
+        "Aralık": 54514
+      },
+      "2025": {
+        "Ocak": 60861,
+        "Şubat": 60861,
+        "Mart": 60861
+      }
+    },
+    "Ogretim Gorevlisi": {
+      "2020": {
+        "Mayıs": 6217,
+        "Haziran": 6140,
+        "Temmuz": 6524,
+        "Ağustos": 6549,
+        "Eylül": 6549,
+        "Ekim": 6549,
+        "Kasım": 6435,
+        "Aralık": 6435
+      },
+      "2021": {
+        "Ocak": 7091,
+        "Şubat": 7091,
+        "Mart": 7091,
+        "Nisan": 7091,
+        "Mayıs": 7091,
+        "Haziran": 7091,
+        "Temmuz": 7603,
+        "Ağustos": 7644,
+        "Eylül": 7644,
+        "Ekim": 7570,
+        "Kasım": 7490,
+        "Aralık": 7490
+      },
+      "2022": {
+        "Ocak": 9865,
+        "Şubat": 9865,
+        "Mart": 9865,
+        "Nisan": 9865,
+        "Mayıs": 9865,
+        "Haziran": 9865,
+        "Temmuz": 13762,
+        "Ağustos": 13973,
+        "Eylül": 13973,
+        "Ekim": 13973,
+        "Kasım": 13973,
+        "Aralık": 13973
+      },
+      "2023": {
+        "Ocak": 18123,
+        "Şubat": 18392,
+        "Mart": 18392,
+        "Nisan": 18392,
+        "Mayıs": 18392,
+        "Haziran": 18392,
+        "Temmuz": 29551,
+        "Ağustos": 29710,
+        "Eylül": 29710,
+        "Ekim": 29710,
+        "Kasım": 29710,
+        "Aralık": 29710
+      },
+      "2024": {
+        "Ocak": 44927,
+        "Şubat": 44927,
+        "Mart": 44927,
+        "Nisan": 44927,
+        "Mayıs": 44927,
+        "Haziran": 44927,
+        "Temmuz": 53266,
+        "Ağustos": 53573,
+        "Eylül": 53573,
+        "Ekim": 53573,
+        "Kasım": 53573,
+        "Aralık": 53573
+      },
+      "2025": {
+        "Ocak": 60579,
+        "Şubat": 60579,
+        "Mart": 60579
+      }
+    },
+    "Dr. Ogretim Uyesi": {
+      "2020": {
+        "Mayıs": 7101,
+        "Haziran": 7101,
+        "Temmuz": 7484,
+        "Ağustos": 7484,
+        "Eylül": 7484,
+        "Ekim": 7484,
+        "Kasım": 7368,
+        "Aralık": 7368
+      },
+      "2021": {
+        "Ocak": 8095,
+        "Şubat": 8095,
+        "Mart": 8095,
+        "Nisan": 8095,
+        "Mayıs": 8095,
+        "Haziran": 8095,
+        "Temmuz": 8683,
+        "Ağustos": 8734,
+        "Eylül": 8647,
+        "Ekim": 8639,
+        "Kasım": 8639,
+        "Aralık": 8639
+      },
+      "2022": {
+        "Ocak": 11163,
+        "Şubat": 11301,
+        "Mart": 11301,
+        "Nisan": 11301,
+        "Mayıs": 11301,
+        "Haziran": 11301,
+        "Temmuz": 15728,
+        "Ağustos": 15835,
+        "Eylül": 15835,
+        "Ekim": 15835,
+        "Kasım": 15835,
+        "Aralık": 15835
+      },
+      "2023": {
+        "Ocak": 20784,
+        "Şubat": 21053,
+        "Mart": 21053,
+        "Nisan": 21053,
+        "Mayıs": 21053,
+        "Haziran": 21053,
+        "Temmuz": 32633,
+        "Ağustos": 32837,
+        "Eylül": 32837,
+        "Ekim": 32837,
+        "Kasım": 32837,
+        "Aralık": 32837
+      },
+      "2024": {
+        "Ocak": 48954,
+        "Şubat": 49607,
+        "Mart": 49607,
+        "Nisan": 49607,
+        "Mayıs": 49607,
+        "Haziran": 49607,
+        "Temmuz": 58762,
+        "Ağustos": 59157,
+        "Eylül": 59157,
+        "Ekim": 59157,
+        "Kasım": 59157,
+        "Aralık": 59157
+      },
+      "2025": {
+        "Ocak": 66129,
+        "Şubat": 66129,
+        "Mart": 66129
+      }
+    },
+    "Doc. Dr. Ogretim Uyesi": {
+      "2020": {
+        "Mayıs": 7270,
+        "Haziran": 7101,
+        "Temmuz": 7670,
+        "Ağustos": 7661,
+        "Eylül": 7661,
+        "Ekim": 7557,
+        "Kasım": 7557
+      },
+      "2021": {
+        "Ocak": 8284,
+        "Şubat": 8284,
+        "Mart": 8284,
+        "Nisan": 8284,
+        "Mayıs": 8284,
+        "Haziran": 8284,
+        "Temmuz": 9066,
+        "Ağustos": 8939,
+        "Eylül": 8890,
+        "Ekim": 8794,
+        "Kasım": 8794,
+        "Aralık": 8794
+      },
+      "2022": {
+        "Ocak": 11469,
+        "Şubat": 11614,
+        "Mart": 11614,
+        "Nisan": 11614,
+        "Mayıs": 11614,
+        "Haziran": 11614,
+        "Temmuz": 16090,
+        "Ağustos": 16322,
+        "Eylül": 16322,
+        "Ekim": 16322,
+        "Kasım": 16322,
+        "Aralık": 16322
+      },
+      "2023": {
+        "Ocak": 21337,
+        "Şubat": 21605,
+        "Mart": 21605,
+        "Nisan": 21605,
+        "Mayıs": 21605,
+        "Haziran": 21605,
+        "Temmuz": 33276,
+        "Ağustos": 33487,
+        "Eylül": 33487,
+        "Ekim": 33487,
+        "Kasım": 33487,
+        "Aralık": 33487
+      },
+      "2024": {
+        "Ocak": 49901,
+        "Şubat": 50577,
+        "Mart": 50577,
+        "Nisan": 50577,
+        "Mayıs": 50577,
+        "Haziran": 50577,
+        "Temmuz": 59905,
+        "Ağustos": 60314,
+        "Eylül": 60314,
+        "Ekim": 60314,
+        "Kasım": 60314,
+        "Aralık": 60314
+      },
+      "2025": {
+        "Ocak": 67351,
+        "Şubat": 67351,
+        "Mart": 67351
+      }
+    },
+    "Prof. Dr. Ogretim Uyesi": {
+      "2020": {
+        "Mayıs": 9517,
+        "Haziran": 9517,
+        "Temmuz": 10018,
+        "Ağustos": 10040,
+        "Eylül": 10040,
+        "Ekim": 10040,
+        "Kasım": 9944,
+        "Aralık": 9927
+      },
+      "2021": {
+        "Ocak": 10793,
+        "Şubat": 10839,
+        "Mart": 10839,
+        "Nisan": 10839,
+        "Mayıs": 10839,
+        "Haziran": 10839,
+        "Temmuz": 11651,
+        "Ağustos": 11709,
+        "Eylül": 11709,
+        "Ekim": 11660,
+        "Kasım": 11580,
+        "Aralık": 11580
+      },
+      "2022": {
+        "Ocak": 15018,
+        "Şubat": 15179,
+        "Mart": 15179,
+        "Nisan": 15179,
+        "Mayıs": 15179,
+        "Haziran": 15179,
+        "Temmuz": 21197,
+        "Ağustos": 21503,
+        "Eylül": 21503,
+        "Ekim": 21503,
+        "Kasım": 21503,
+        "Aralık": 21503
+      },
+      "2023": {
+        "Ocak": 27628,
+        "Şubat": 28188,
+        "Mart": 28188,
+        "Nisan": 28188,
+        "Mayıs": 28188,
+        "Haziran": 28188,
+        "Temmuz": 40989,
+        "Ağustos": 40989,
+        "Eylül": 40989,
+        "Ekim": 40989,
+        "Kasım": 40989,
+        "Aralık": 40989
+      },
+      "2024": {
+        "Ocak": 62074,
+        "Şubat": 62074,
+        "Mart": 62074,
+        "Nisan": 62074,
+        "Mayıs": 62074,
+        "Haziran": 62074,
+        "Temmuz": 73577,
+        "Ağustos": 74032,
+        "Eylül": 74032,
+        "Ekim": 74032,
+        "Kasım": 74032,
+        "Aralık": 74032
+      },
+      "2025": {
+        "Ocak": 82586,
+        "Şubat": 82586,
+        "Mart": 82586
+      }
+    }
+  }
+}
