@@ -221,7 +221,8 @@ export default function MaasHesaplayici() {
     <div className="p-4 max-w-7xl mx-auto min-h-screen">
             
       <div className="flex items-start justify-between gap-2 mb-6">
-  <h1 className="text-3xl font-bold">Devlet ve Vakıf Maaş Karşılaştırması</h1>
+  <h1 className="text-3xl font-bold">Öğretmen Sendikası Vakıf Üniversiteleri Birimi</h1>
+  <h2 className="text-3xl font-bold">2020-2025 Vakıf Üniversiteleri Eksik Ödenen Maaşları Hesaplama Robotu</h2>
   <div>
     <button
       onClick={() => setShowInfo((prev) => !prev)}
