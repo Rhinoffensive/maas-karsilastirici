@@ -218,20 +218,22 @@ export default function MaasHesaplayici() {
   };
 
   return (
-    <div className="p-4 max-w-7xl mx-auto min-h-screen">
+<div className="p-4 max-w-7xl mx-auto min-h-screen">
             
-      <div className="flex items-start justify-between gap-2 mb-6">
-  <h1 className="text-3xl font-bold">Öğretmen Sendikası Vakıf Üniversiteleri Birimi</h1>
-  <h2 className="text-3xl font-bold">2020-2025 Vakıf Üniversiteleri Eksik Ödenen Maaşları Hesaplama Robotu</h2>
-  <div>
-    <button
-      onClick={() => setShowInfo((prev) => !prev)}
-      className="text-xl border border-gray-300 px-2 py-1 rounded hover:bg-gray-100"
-    >
-      ❓
-    </button>
-  </div>
-</div>
+            <div className="flex items-start justify-between gap-4 mb-6">
+        <div>
+          <h1 className="text-3xl font-bold">Öğretmen Sendikası Vakıf Üniversiteleri Birimi</h1>
+          <h4 className="text-3xl  mt-2">2020-2025 Vakıf Üniversiteleri Eksik Ödenen Maaşları Hesaplama Robotu</h4>
+        </div>
+        <div>
+          <button
+            onClick={() => setShowInfo((prev) => !prev)}
+            className="text-xl border border-gray-300 px-2 py-1 rounded hover:bg-gray-100"
+          >
+            ❓
+          </button>
+        </div>
+      </div>
 {showInfo && (
   <div className="mb-6 border border-gray-300 bg-white p-4 rounded shadow max-w-[90vw] w-full sm:w-[600px]">
     <p className="mb-2 font-medium">Nasıl Hesaplanır?</p>
